@@ -5,7 +5,10 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 // Checkout code from GitHub
-                git branch: 'main', url: 'https://github.com/Shinujk/root.git'
+                git(
+                    branch: 'main',
+                    url: 'https://github.com/Shinujk/root.git'
+                )
             }
         }
 
