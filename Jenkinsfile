@@ -7,7 +7,7 @@ pipeline {
                 // Checkout code from GitHub
                 git(
                     branch: 'main',
-                    url: 'https://github.com/Shinujk/root.git'
+                    remote: 'https://github.com/Shinujk/root.git'
                 )
             }
         }
